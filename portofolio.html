@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <!-- Font Awesome Kit 7 -->
+    <script src="https://kit.fontawesome.com/393a945af1.js" crossorigin="anonymous"></script>
+    <!-- Iconos de Bootsrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/animation.css" rel="stylesheet">
+    <!-- Fonts CSS-->
+    <link rel="stylesheet" href="css/heading.css">
+    <link rel="stylesheet" href="css/body.css">
+
+</head>
+
+<body>
+    <div id="page-loader" class="page-loader">
+        <div id="termynal" data-termynal data-ty-progressChar="/" data-ty-startDelay="60" data-ty-typeDelay="20"
+            data-ty-lineDelay="60" class="termynal-animation">
+            <span data-ty="input">set mirrors 90039203</span>
+            <span data-ty="progress"></span>
+            <span data-ty>Mirrors successfully set</span>
+            <span data-ty></span>
+            <span data-ty="input">get user ip-get</span>
+            <span data-ty="input">user ip successfully retrieved</span>
+            <span data-ty="progress"></span>
+            <span data-ty>Loanding Modules...</span>
+            <span data-ty></span>
+            <span data-ty="input">python</span>
+            <span data-ty="input" data-ty-prompt=">>>">Loading fonts</span>
+            <span data-ty="input" data-ty-prompt=">>>">Loading images</span>
+            <span data-ty="input" data-ty-prompt=">>>">doc = nlp(u'Hello world')</span>
+            <span data-ty="input" data-ty-prompt=">>>">print([(w.text, w.pos_) for w in doc])</span>
+            <span data-ty>[('Hello', 'INTJ'), ('world', 'NOUN')]</span>
+        </div>
+    </div>
+
+    <nav id="mainNav" class="navbar navbar-expand-lg navbar-dark bg-secondary sticky-top mi-navbar">
+        <div class="container-fluid px-2">
+            <button class="navbar-toggler img-fluid" type="button" data-toggle="collapse" data-target="#menuPrincipal"
+                aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir o cerrar el menú">
+                <i class="fa-solid fa-bars img-fluid"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="menuPrincipal">
+                <div class="navbar-nav">
+                    <a class="nav-link fs-6" href="index.html#page-top"><i class="fa-solid fa-house"></i> <span>//</span></a>
+                    <div class="nav-item dropdown">
+                        <a class="nav-link fs-6 dropdown-toggle" href="#" id="portfolioDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa-solid fa-folder"></i> PORTAFOLIO
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="portfolioDropdown">
+                            <a class="dropdown-item" href="trabajos-3d.html">Trabajos 3D</a>
+                            <a class="dropdown-item" href="edicion-fotos.html">Edición de fotos</a>
+                            <a class="dropdown-item" href="edicion-video.html">Edición de videos</a>
+                        </div>
+                    </div>
+                    <a class="nav-link fs-6" href="servicios.html"><i class="fa-solid fa-palette"></i> SERVICIOS <span>/</span></a>
+                    <a class="nav-link fs-6" href="contacto.html"><i class="fa-solid fa-phone"></i> CONTACTO</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+    <section class="page-section portfolio" id="portfolio">
+        <!-- Portfolio Section Heading-->
+        <div class="text-center">
+            <h2 class="page-section-heading text-secondary mb-0 d-inline-block">PORTAFOLIO</h2>
+        </div>
+        <!-- Icon Divider-->
+        <div class="divider-custom">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+            <div class="divider-custom-line"></div>
+        </div>
+        <!-- Sección de trabajos 3D-->
+        <div id="3Dworks">
+            <div class="text-center mb-4 text-white ">
+                <h3>Trabajos 3D</h3>
+            </div>
+            <!-- Portfolio Grid Items-->
+            <div class="row justify-content-center">
+                <!-- Portfolio Items-->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <!-- Primera Foto-->
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal0">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+                            data-title="Casa móvil en el pantano">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fas fa-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="assets/img/portfolio/3Dwork/pantano__L.png" alt="Work1" />
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+                            data-title="Baño">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fas fa-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="assets/img/portfolio/3Dwork/re-hecho.Bano.png"
+                            alt="Tasty Cake" />
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+                            data-title="Casa en la playa — Cuarto 1">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fas fa-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="assets/img/portfolio/3Dwork/re-hecho.Cuarto_1.png"
+                            alt="Circus Tent" />
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+                            data-title="Casa en la playa — Cuarto 2">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fas fa-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="assets/img/portfolio/3Dwork/re-hecho.Cuarto_2.png"
+                            alt="Controller" />
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+                            data-title="Casa en la playa">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fas fa-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="assets/img/portfolio/3Dwork/re-hecho.Outside.Day.png"
+                            alt="Locked Safe" />
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+                            data-title="Sala">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fas fa-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="assets/img/portfolio/3Dwork/re-hecho.Sala.png"
+                            alt="Submarine" />
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+                            data-title="Vecindario nocturno">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fas fa-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="assets/img/portfolio/3Dwork/RENDER_OFICIAL.png"
+                            alt="Submarine" />
+                    </div>
+                </div>
+            </div>
+            <div id="photoEditing">
+                <div class="text-center mb-4 text-white">
+                    <h3>Edición de Fotos</h3>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal7">
+                            <div
+                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+                                data-title="Glitch Mariposa">
+                                <div class="portfolio-item-caption-content text-center text-white"><i
+                                        class="fas fa-plus fa-3x"></i></div>
+                            </div><img class="img-fluid" src="assets/img/portfolio/photoEditing/name.16.png"
+                                alt="Submarine" />
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal8">
+                            <div
+                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+                                data-title="Fin de los Tiempos">
+                                <div class="portfolio-item-caption-content text-center text-white"><i
+                                        class="fas fa-plus fa-3x"></i></div>
+                            </div><img class="img-fluid"
+                                src="assets/img/portfolio/photoEditing/maqueta_fotoEDITADA.webp" alt="Submarine" />
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal11">
+                            <div
+                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+                                data-title="Cyberpunk">
+                                <div class="portfolio-item-caption-content text-center text-white"><i
+                                        class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid"
+                                src="assets/img/portfolio/photoEditing/effect_visuals_Cyberpunk.webp"
+                                alt="Composición cyberpunk con visor de realidad virtual" />
+                        </div>
+                    </div>
+                </div>
+                <div id="videoEditing">
+                    <div class="text-center mb-4 text-white">
+                        <h3>Edición de Videos</h3>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-md-6 col-lg-4 mb-5">
+                            <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal9">
+                                <div
+                                    class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+                                    data-title="Death Grips Edit">
+                                    <div class="portfolio-item-caption-content text-center text-white"><i
+                                            class="fas fa-plus fa-3x"></i></div>
+                                </div><img class="img-fluid" src="assets/img/portfolio/Video/frame1.png"
+                                    alt="Submarine" />
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 mb-5">
+                            <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal10">
+                                <div
+                                    class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+                                    data-title="Alien Abduction">
+                                    <div class="portfolio-item-caption-content text-center text-white"><i
+                                            class="fas fa-plus fa-3x"></i></div>
+                                </div><img class="img-fluid" src="assets/img/portfolio/Video/frame2.png"
+                                    alt="frame del video " />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!-- Portfolio Modal-->
+    <!-- Seccion de Trabajo 3d-->
+    <!-- 1st Item Portfolio CABAÑA-->
+    <div class="portfolio-modal modal fade" id="portfolioModal0" tabindex="-1" role="dialog"
+        aria-labelledby="#portfolioModal0Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i
+                            class="fas fa-times"></i></span></button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary mb-0">Casa Movíl en el Pantano</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5"
+                                    src="assets/img/portfolio/3Dwork/pantano__L.png"
+                                    alt="Cabaña en el Pantano (Noche)" />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-5">Modelado de una casa de playa que basado en las casas que uno se puede
+                                    encontrar en chelem, yucatan. El modelado fue hecho en blender y el renderizado en
+                                    cycles.
+                                    Esto es la seccion del baño de la casa.
+                                </p>
+                                <button class="btn btn-primary" href="#" data-dismiss="modal"><i
+                                        class="fas fa-times fa-fw"></i>Regresar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 2nd Item Portfolio CABAÑA-->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog"
+        aria-labelledby="#portfolioModal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i
+                            class="fas fa-times"></i></span></button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary mb-0">Baño</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5"
+                                    src="assets/img/portfolio/3Dwork/re-hecho.Bano.png" alt="Baño" />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-5">Modelado de una casa de playa que basado en las casas que uno se puede
+                                    encontrar en chelem, yucatan. El modelado fue hecho en blender y el renderizado en
+                                    cycles.
+                                    Esto es la seccion del baño de la casa.
+                                </p>
+                                <button class="btn btn-primary" href="#" data-dismiss="modal"><i
+                                        class="fas fa-times fa-fw"></i>Regresar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog"
+        aria-labelledby="#portfolioModal2Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i
+                            class="fas fa-times"></i></span></button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary mb-0">Casa en la Playa (Cuarto 1)</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5"
+                                    src="assets/img/portfolio/3Dwork/re-hecho.Cuarto_1.png" alt="Circus Tent" />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Mollitia neque
+                                    assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam
+                                    velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                                </p>
+                                <button class="btn btn-primary" href="#" data-dismiss="modal"><i
+                                        class="fas fa-times fa-fw"></i>Regresar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog"
+        aria-labelledby="#portfolioModal3Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i
+                            class="fas fa-times"></i></span></button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary mb-0">Casa en la Playa (Cuarto 2)</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5"
+                                    src="assets/img/portfolio/3Dwork/re-hecho.Cuarto_2.png" alt="Controller" />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Mollitia neque
+                                    assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam
+                                    velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                                </p>
+                                <button class="btn btn-primary" href="#" data-dismiss="modal"><i
+                                        class="fas fa-times fa-fw"></i>Regresar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 5th Item Portfolio EXTERIOR CASA PLAYA-->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog"
+        aria-labelledby="#portfolioModal4Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i
+                            class="fas fa-times"></i></span></button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary mb-0">Casa en la Playa</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5"
+                                    src="assets/img/portfolio/3Dwork/re-hecho.Outside.Day.png" alt="Locked Safe" />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Mollitia neque
+                                    assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam
+                                    velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                                </p>
+                                <button class="btn btn-primary" href="#" data-dismiss="modal"><i
+                                        class="fas fa-times fa-fw"></i>Regresar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 6th Item Portfolio SALA-->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog"
+        aria-labelledby="#portfolioModal5Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i
+                            class="fas fa-times"></i></span></button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary mb-0">SALA</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5"
+                                    src="assets/img/portfolio/3Dwork/re-hecho.Sala.png" alt="Submarine" />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-5">Sala de la casa de la playa que fue modelada en blender y renderizada en
+                                    cycles.
+                                    Basado en las casas que uno se puede encontrar en chelem, yucatan.
+                                </p>
+                                <button class="btn btn-primary" href="#" data-dismiss="modal"><i
+                                        class="fas fa-times fa-fw"></i>Regresar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 7th Item Portfolio CALLE-->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog"
+        aria-labelledby="#portfolioModal6Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i
+                            class="fas fa-times"></i></span></button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary mb-0">Vecindario Nocturno</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5"
+                                    src="assets/img/portfolio/3Dwork/RENDER_OFICIAL.png" alt="Submarine" />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-5">Calle de una ciudad que fue modelada en blender y renderizada en cycles.
+                                    La calle es un lugar ficticio, pero se basa en calles de la ciudad de Mérida,
+                                    Yucatán.
+                                </p>
+                                <button class="btn btn-primary" href="#" data-dismiss="modal"><i
+                                        class="fas fa-times fa-fw"></i>Regresar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Seccion de Edición de Fotos-->
+    <!-- 8th Item Portfolio MARIPOSA-->
+    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog"
+        aria-labelledby="#portfolioModal7Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i
+                            class="fas fa-times"></i></span></button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary mb-0">Glitch Mariposa</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5"
+                                    src="assets/img/portfolio/photoEditing/name.16.png" alt="Glitch Mariposa" />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-5">Calle de una ciudad que fue modelada en blender y renderizada en cycles.
+                                    La calle es un lugar ficticio, pero se basa en calles de la ciudad de Mérida,
+                                    Yucatán.
+                                </p>
+                                <button class="btn btn-primary" href="#" data-dismiss="modal"><i
+                                        class="fas fa-times fa-fw"></i>Regresar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 9th Item Portfolio MAQUETADA-->
+    <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog"
+        aria-labelledby="#portfolioModal8Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i
+                            class="fas fa-times"></i></span></button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary mb-0">Fin De los Tiempos</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5"
+                                    src="assets/img/portfolio/photoEditing/maqueta_fotoEDITADA.webp"
+                                    alt="Glitch Mariposa" />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-5">Calle de una ciudad que fue modelada en blender y renderizada en cycles.
+                                    La calle es un lugar ficticio, pero se basa en calles de la ciudad de Mérida,
+                                    Yucatán.
+                                </p>
+                                <button class="btn btn-primary" href="#" data-dismiss="modal"><i
+                                        class="fas fa-times fa-fw"></i>Regresar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal11" tabindex="-1" role="dialog"
+        aria-labelledby="portfolioModal11Title" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                </button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <h2 class="portfolio-modal-title text-secondary mb-0" id="portfolioModal11Title">
+                                    Cyberpunk</h2>
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <img class="img-fluid rounded mb-5"
+                                    src="assets/img/portfolio/photoEditing/effect_visuals_Cyberpunk.webp"
+                                    alt="Composición cyberpunk con visor de realidad virtual" />
+                                <p class="mb-5">Composición visual de estética cyberpunk que combina un retrato con un
+                                    visor futurista y un entorno urbano iluminado en tonos azules.</p>
+                                <button class="btn btn-primary" type="button" data-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>Regresar
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Seccion de Edición de Videos-->
+    <!-- 10th Item Portfolio EDIT-->
+    <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog"
+        aria-labelledby="#portfolioModal9Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i
+                            class="fas fa-times"></i></span></button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary mb-0">Death Grips Edit</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Video-->
+                                <video class="img-fluid rounded mb-5 w-100" controls preload="metadata">
+                                    <source src="assets/img/portfolio/Video/PowersThatB-IG-post.mp4" type="video/mp4">
+                                    Tu navegador no puede reproducir este video.
+                                </video>
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-5">Edit con la música de Death Grips, Powers That B. El edit fue hecho en
+                                    After Effects.
+                                </p>
+                                <button class="btn btn-primary" href="#" data-dismiss="modal"><i
+                                        class="fas fa-times fa-fw"></i>Regresar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 10th Item Portfolio EDIT-->
+    <div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog"
+        aria-labelledby="#portfolioModal10Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i
+                            class="fas fa-times"></i></span></button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title mb-0">Alien Abduction</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Video-->
+                                <video class="img-fluid rounded mb-5 w-100" controls preload="metadata">
+                                    <source src="assets/img/portfolio/Video/U3Proyect_EF_3.mp4" type="video/mp4">
+                                    Tu navegador no puede reproducir este video.
+                                </video>
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-5">
+                                    Pequeña animación que fue editada en After Effects, basada en un proyecto de la
+                                    escuela.
+                                </p>
+                                <button class="btn btn-primary" href="#" data-dismiss="modal"><i
+                                        class="fas fa-times fa-fw"></i>Regresar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="copyright py-4 text-center text-white">
+        <div class="container"><small class="pre-wrap">Noé Gabriel Yam Uicab © xulub.com 2026</small></div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="js/modal-gallery.js"></script>
+    <script src="js/modal-description-toggle.js"></script>
+    <script src="js/modal-navigation.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script>
+        const loader = document.querySelector('#page-loader');
+        const terminal = document.querySelector('#termynal');
+        let animationFinished = false;
+        let pageLoaded = document.readyState === 'complete';
+
+        const hideLoader = () => {
+            loader.classList.add('is-hidden');
+        };
+        const hideLoaderWhenReady = () => {
+            if (animationFinished && pageLoaded) {
+                hideLoader();
+            }
+        };
+
+        loader.addEventListener('click', hideLoader, { once: true });
+        terminal.addEventListener('termynal:complete', () => {
+            animationFinished = true;
+            hideLoaderWhenReady();
+        }, { once: true });
+        window.addEventListener('load', () => {
+            pageLoaded = true;
+            hideLoaderWhenReady();
+        }, { once: true });
+        window.setTimeout(hideLoader, 60000);
+    </script>
+    <script src="lib/termynal.js" data-termynal-container="#termynal"></script>
+</body>
+
+</html>
